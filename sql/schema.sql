@@ -1,8 +1,4 @@
-CREATE DATABASE IF NOT EXISTS concours_photo
-CHARACTER SET utf8mb4
-COLLATE utf8mb4_general_ci;
-
-USE concours_photo;
+USE projet1_tp2;
 
 DROP TABLE IF EXISTS Vote;
 DROP TABLE IF EXISTS Photo;
